@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+    <title>Tailwind</title>
+</head>
+<body class="bg-gray-100">
+    <!--Navbar-->
+    
+    <nav class="flex justify-between items-center p-4 bg-gray-50 shadow-md w-[90%] mx-auto rounded-none mt-4">
+      <div class="text-xl font-bold">:)</div>
+      <div class="space-x-4 mr-4">
+        <a href="#" class="text-gray-600">Link</a>
+        <a href="#" class="text-gray-600">Link</a>
+        <a href="#" class="text-gray-600">Link</a>
+        <button class="bg-purple-600 text-white px-4 py-2 rounded">Sign Up</button>
+      </div>
+    </nav>
+ 
+    <!--Sol bölüm-->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 p-8 ">
+      <div class=" flex items-center p-6 rounded shadow-md text-center flex flex-col items-center w-[450px] h-[500px] mx-auto ">
+        <h3 class="text-purple-600 font-semibold mt-10">Mamba design system</h3>
+        <h1 class="text-3xl font-bold mt-2">Build it with Mamba</h1>
+        <p class="text-gray-600 mt-2 ">Modular and versatile. The ultimate design toolkit for savvy technology startups.</p>
+        <input type="text" placeholder="Your name" class="w-full mt-4 p-2 border-gray-300 rounded-md font-normal bg-white placeholder-gray-500 text-gray-700">
+        <input type="email" placeholder="Email address" class="w-full p-2 border-gray-300 rounded-md font-normal bg-white placeholder-gray-500 text-gray-700 mt-2">
+        <button class="bg-purple-600 text-white w-full p-2 mt-4 rounded">Join the waitlist</button>
+      </div>
+      <div>
+        <img src="https://picsum.photos/id/12/600/400" alt="Stairs" class="-16 object-cover rounded-lg h-[500px] w-[580px]">
+      </div>
+
+    </section>
+ 
+    <!--Features-->
+    <section class="text-center p-8 ml-8">
+      <h4 class="text-purple-600 uppercase text-sm">How it works</h4>
+      <h2 class="text-2xl font-bold mt-2">Building with Mamba is simple</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          <div class="bg-white p-6 rounded shadow-md">
+              <div class="bg-purple-600 text-white w-8 h-8 flex  items-center justify-center rounded-full ml-0 ">1</div>
+              <p class="font-bold mt-2">Nulla.</p>
+              <p class="text-gray-600">Nostrum, corrupti blanditiis. Illum, architecto?</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow-md">
+              <div class="bg-purple-600 text-white w-8 h-8 flex items-center justify-center rounded-full ml-0">2</div>
+              <p class="font-bold mt-2">Accusantium.</p>
+              <p class="text-gray-600">Vitae saepe atque neque sunt eius dolor veniam alias debitis?</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow-md">
+              <div class="bg-purple-600 text-white w-8 h-8 flex items-center justify-center rounded-full ml-0">3</div>
+              <p class="font-bold mt-2">Maxime.</p>
+              <p class="text-gray-600">Expedita temporibus culpa reprehenderit doloribus consectetur odio!</p>
+          </div>
+      </div>
+  </section>
+  
+  <!-- Testimonial & Image -->
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-4 p-8 ml-8">
+    <div>
+        <img src="https://picsum.photos/id/17/600/400" alt="City Lights" class="w-full h-full object-cover rounded">
+    </div>
+    <div class="bg-white p-6 rounded shadow-md flex items-center justify-center text-center">
+        <div>
+         
+            <div class="w-16 h-16 rounded-full overflow-hidden mx-auto">
+              <img src="https://picsum.photos/id/21/600/400" alt="Image" class="w-full h-full object-cover">
+            </div>
+          
+            <p class="italic mt-2">"Et, dignissimos obcaecati. Recusandae praesentium doloribus vitae? Rem unde atque mollitia!"</p>
+            <p class="font-bold mt-2">Leroy Jenkins</p>
+            <p class="text-gray-600">CEO of Company Co.</p>
+            
+            <!--üç nokta-->
+            <div class="flex justify-center space-x-2 mt-4">
+              <span class="h-3 w-3 bg-gray-400 rounded-full"></span>
+              <span class="h-3 w-3 bg-gray-600 rounded-full"></span>
+              <span class="h-3 w-3 bg-gray-400 rounded-full"></span>
+          </div>
+        </div>
+        
+      </div>
+
+    
+</section>
+
+
+
+<div class="bg-gray-100 p-8">
+  <!-- İlk Bölüm: Create with us -->
+  <section class="max-w-7xl mx-auto p-6 rounded-lg shadow bg-white ml-8">
+      <h2 class="text-2xl font-bold">Create with us</h2>
+      <p class="text-gray-600 mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi officia quidem rem eaque ratione impedit voluptate laboriosam accusamus qui soluta eligendi hic earum fuga, ea in voluptas, commodi asperiores quisquam neque minus! Saepe, error!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nobis temporibus voluptate facere ipsum, at dignissimos error alias ipsam amet delectus optio est maxime aliquam omnis veritatis a distinctio dolorum iste quasi illo totam odit.
+      </p>
+  </section>
+
+  <!-- Alt Bölüm: Sol ve Sağ Yan Yana -->
+  <section class="max-w-7xl mx-auto p-6 mt-8 rounded-lg shadow bg-white ml-8">
+      <div class="grid md:grid-cols-2 gap-6 items-center">
+          <!-- Sol taraf: Resim -->
+          <div>
+              <img src="https://picsum.photos/id/28/600/400" class="rounded-lg shadow" alt="Desert Image">
+          </div>
+
+          <!-- Sağ taraf: İçerik -->
+          <div>
+              <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm">Business</span>
+              <h3 class="font-bold text-xl mt-2">Curating a workplace that inspires team movement</h3>
+              <p class="text-gray-500 text-sm mt-1">November 30, 2020 <br> By Leroy Jenkins</p>
+          </div>
+      </div>
+     
+  </section>
+    <section>
+   <!--alt kartlar 3lü-->
+   <div class="grid md:grid-cols-3 gap-4 mt-6 ml-8">
+    <div class="p-4 bg-gray-50 rounded-lg shadow">
+       
+        <p class="text-gray-600 ">
+          <strong class="font-bold text-black">Panel-based blocks.</strong> Flexible panels perfect for functional layouts.</p>
+    </div>
+    <div class="p-4 bg-gray-50 rounded-lg shadow">
+       
+        <p class="text-gray-600 text-sm">
+          <strong class="font-bold text-black">Responsive design.</strong> Panels look great on any device.</p>
+    </div>
+    <div class="p-4 bg-gray-50 rounded-lg shadow">
+        
+        <p class="text-gray-600 ">
+          <strong class="font-bold text-black">Premium support.</strong> Join 50,000+ satisfied customers.</p>
+    </div>
+</div>
+    </section>
+
+    <!--  Our Team bölümü -->
+    <section class=" mx-auto mt-12 bg-white p-6 rounded-lg shadow text-center mx-auto ml-8">
+      <h2 class="text-2xl font-bold">Our team is here to help you.</h2>
+      <p class="text-gray-600">Meet our crew &gt;</p>
+
+      <!-- Resim -->
+      <div class="mt-2">
+          <img src="https://picsum.photos/id/30/950/400" class="shadow mx-auto" alt="Team Image">
+      </div>
+  </section>
+</div>
+</div>
+
+
+<footer class="bg-white border-t border-gray-200 py-6 ml-8 mr-8
+">
+  <div class="container mx-auto">
+    <p class="text-lg font-semibold text-gray-800">Mamba</p>
+
+
+    <div class="flex justify-end space-x-2 w-full ">
+      <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none">
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none">
+        <i class="fab fa-facebook-square"></i>
+      </button>
+      <button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full outline-none focus:outline-none">
+        <i class="fab fa-github"></i>
+      </button>
+    </div>
+    
+  </div>
+</footer>
+
+    
+
+  
+  </body>
+</html>
